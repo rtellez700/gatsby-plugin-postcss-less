@@ -20,8 +20,11 @@ plugins: [
     resolve: `gatsby-plugin-postcss-less`,
     options: {
       postCssPlugins: [somePostCssPlugin()],
-      precision: 8, // SASS default: 5
-    },
-  },
+      precision: 8, // LESS default: 8
+      theme: {
+        "text-color": `#ffffff`
+      }
+    }
+  }
 ];
 ```
