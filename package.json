@@ -11,7 +11,7 @@
     "babel-runtime": "^6.26.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "gatsby-1-config-css-modules": "^1.0.11",
-    "less": "^2.7.2",
+    "less": "^2.7.3",
     "less-loader": "^3.0.0",
     "webpack": "^1.13.3"
   },

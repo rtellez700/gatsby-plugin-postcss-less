@@ -1,7 +1,7 @@
 const ExtractTextPlugin = require(`extract-text-webpack-plugin`);
 const { cssModulesConfig } = require(`gatsby-1-config-css-modules`);
 const path = require(`path`);
-
+//
 exports.modifyWebpackConfig = ({ config, stage }, options) => {
   const lessFiles = /\.less$/;
   const lessModulesFiles = /\.module\.less$/;
